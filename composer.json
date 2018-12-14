@@ -1,9 +1,9 @@
 {
-    "name": "greenfieldtech-nirs/phpari",
+    "name": "12Oleg21/apri_easycall",
     "type": "library",
     "description": "A PHP Class Library for Asterisk ARI",
     "keywords": ["Asterisk", "ARI", "VoIP", "REST", "PHP"],
-    "homepage": "https://github.com/greenfieldtech-nirs/phpari",
+    "homepage": "https://github.com/12Oleg21/apri_easycall",
     "license": "GPL-2.0",
     "authors": [
         {
@@ -21,6 +21,8 @@
     "autoload": {
         "files": [
             "phpari.php",
+            "phpagi-asmanager.php",
+            "phpagi.php",
             "src/interfaces/asterisk.php",
             "src/interfaces/channels.php",
             "src/interfaces/bridges.php",
